@@ -34,4 +34,5 @@ echo > /var/log/syslog
 echo > /var/log/btmp
 echo > /var/log/messages
 echo > /var/log/debug
+echo 1 > /proc/sys/vm/drop_caches
 echo -e "Mod By Xteam"
